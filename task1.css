@@ -1,0 +1,135 @@
+hr.first {
+    border: 8px solid brown;
+ 
+  }
+  #email
+  {
+    width:20%;
+  }
+  .heading2
+  {
+    margin-left: 0rem;
+  }
+  #h3
+  {
+    margin-left: 50rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color:black;
+  }
+h{
+color: brown;
+font-size: 1.2rem;
+font-weight: bold;
+margin-left: 35rem;
+}
+#t2
+{
+    margin-left: 1%;
+}
+.s
+{
+    font-size: .6rem;
+    margin-left: 12rem;
+}
+.s1
+{
+    font-size: .6rem;
+    margin-left:10rem;
+}
+input{
+    margin-left: 8%;
+}
+#t3
+{
+    margin-left: 17%;
+    width:20%;
+}
+.t4
+{
+    width:20%;
+    margin-left: 7%;
+}
+.s3
+{
+   margin-left: 15rem;
+   font-size: .6rem;
+   
+}
+.sep
+{
+    margin-left: 6%;
+    width:20%;
+}
+.file
+{
+    margin-left: 7%; 
+    border: 1px solid black;
+    width:20%;
+}
+.k4
+{
+    width:20%;
+    margin-left: 11.5%;
+}
+#ph
+{
+    font-size: .9rem;
+    
+}
+#h4
+{
+    margin-left: 40rem;
+}
+#t10
+{
+    width:20%;
+    margin-left: 11.5%;
+}
+#t5
+{
+    width:3%;
+    margin-left: 2.7rem;
+}
+#f1
+{
+    margin-left:40rem;
+}
+#t6
+{
+    margin-left: 3rem;
+    width:13%;
+}
+.size
+{
+    font-size: .9rem;
+}
+#t11
+{
+    margin-left: 8.75rem;
+    width: 20%;
+}
+.t7
+{
+    margin-left: 6rem;
+}
+.t9
+{
+    margin-left: 3%;
+}
+.t10
+{
+    margin-left: 6.7%;
+}
+.t11
+{
+    margin-left: 9%;
+}
+#btn
+{
+    margin-left: 13.5%;
+    color: white;
+    background-color: brown;
+    width: 6rem;
+   
+}
