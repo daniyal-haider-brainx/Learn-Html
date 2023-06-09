@@ -1,0 +1,57 @@
+*{
+    background-image: url('pic.avif');
+    background-repeat: repeat;
+
+
+}
+nav{
+  margin-top: 15%;
+  margin-left: 37%;
+}
+
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+ 
+  }
+  #h1
+  {
+    font-weight: bold;
+    margin-left: 42%;
+    font-size: 2rem;  
+    color:brown;
+}
+.flex
+{
+    display: flex;
+}
+.iii
+{
+    width: 40%;
+   height:  110%;
+    border: 5px solid blue;
+
+}
+#d1
+{
+  margin-left: 19rem;
+}
+#d2
+{
+  margin-left: -24.4rem;
+}
+#d3
+{
+  margin-left: -24.4rem;
+}
+#d4
+{
+  margin-left: -24.4rem;
+}
