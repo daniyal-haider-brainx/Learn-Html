@@ -56,6 +56,24 @@ input{
    font-size: .6rem;
    
 }
+.s4
+{
+   margin-left: 13rem;
+   font-size: .6rem;
+   
+}
+.s5
+{
+   margin-left: 6rem;
+   font-size: .6rem;
+   
+}
+.s6
+{
+   margin-left:4rem;
+   font-size: .6rem;
+   
+}
 .sep
 {
     margin-left: 6%;
@@ -108,6 +126,21 @@ input{
 {
     margin-left: 8.75rem;
     width: 20%;
+}
+#t20
+{
+    width: 12.5%;
+    margin-left: 8.5rem;
+}
+#t21
+{
+    width: 5%;
+    margin-left: .2rem;
+}
+#t22
+{
+    width: 8%;
+    margin-left: .2rem;
 }
 .t7
 {
