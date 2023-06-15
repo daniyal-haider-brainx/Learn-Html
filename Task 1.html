@@ -8,143 +8,161 @@
     <title>Task 1</title>
 </head>
 <body>
-   
+
+      <!---------------------------------------------------------------- Container ------------------------------------------------------------------>
+   <div class="main">
     <hr class="first">
-    <h id="h3">
-        Job Application
-    </h>
-    <br><br>
-    <h id="h4">
-        Personal Information
-    </h>
-    <br>
-    <br>
-    <form method="post"id="f1">
-    <label for="name">Name</label>
-    
-    <input type="text"></input>
-    <input type="text" id="t2"></input>
-    <br>
-    <label for="fname" class="s">First Name</label>
-    <label for="lname" class="s1">Last Name</label>
-<br>
-<br>
+            <!---------------------------------------Heading---------------------------------------------------------->
+       <h1>Job Application </h1>
+
+    <h2> Personal Information</h2>
+
+  <!---------------------------------------Form---------------------------------------------------------->
+    <form method="post" id="form">
+      <section>
+        <!---------------------------------------Name---------------------------------------------------------->
+      <div>
+        <label for="name">Name</label> 
+         <input type="text"></input>
+         <input type="text" id="input_name"></input>
+      <label for="firstname" class="text_fname">First Name</label>
+      <label for="lastname" class="text_lname">Last Name</label>
+
+        </div>
+      <!---------------------------------------Email---------------------------------------------------------->
+    <div>
     <label for="Email">Email</label>
-    
     <input type="email" placeholder="abc@gmail.com" id="email"></input>
-    <br>
-    <br>
-
-    <label for="Education">Education</label>
-    
-
-    <select name="edu" id="edu" class="sep"> 
-        <option value="" >Please choose</option>
-        <option value="edu">Bachelors</option>
-        <option value="edu">Msters</option>
-      </select>
-      <br>
-      <br>
+   
+    </div>
+  <!---------------------------------------Education---------------------------------------------------------->
+    <div class="education_section">
+  <label for="Education">Education</label>
+    <div class="education">
+      <div class="custom-select">
+        <select>
+          <option value="choose">Please choose</option>
+          <option value="opt1">Bachelors</option>
+        </select>
+        <div class="arrow"></div>
+      </div>
+      </div>
+   
+      </div>
+      <!---------------------------------------Resume---------------------------------------------------------->   
+    <div class="resume_section">
     <label for="Resume">Resume</label>
     <input type="file" class="file"></input>
-<br>
-<br>
-    <label for="Adress">Address</label>
-    
-    <input type="text" class="t4"></input>
-    <br>
-    <label for="a1" class="s3">Adress 1</label>
-    <br>
-    <input type="text" id="t11"></input>
-    <br>
-  
-    <label for="a2" class="s3">Adress 2<label>
-<br>
-
-<select name="edu" id="edu" class="k4"> 
  
-    <option value="edu">Select a country</option>
-    <option value="edu">Pakistan</option>
-    <option value="edu">India</option>
-  </select>
-  <br>
-  <label for="a1" class="s3">Country</label>
-  <br>
+      </div>
+  <!---------------------------------------Address---------------------------------------------------------->
+  <div>  
+  <label for="Adress">Address</label>
+    
+    <input type="text" class="address"></input>
+
+    <label for="address1" class="address1">Adress 1</label>
+
+    <input type="text" id="address_input"></input>
+
+    <label for="address2" class="address1">Adress 2<label>
+        </div>
+  <!---------------------------------------Select Country---------------------------------------------------------->
+  <div class="custom-country">
+      <div class="custom-select">
+        <select>
+          <option value="education1">Select a country</option>
+            <option value="education1">Pakistan</option>
+              <option value="education1">India</option>
+          </select>
+     <!---------------------------------------Custom Select Arrow---------------------------------------------------------->
+      <div class="arrow"></div>
+  </div>
+  <label for="country" class="countrytext">Country</label>
+
+    <!---------------------------------------City,State,ZipCode--------------------------------------------------------->
+    <input type="text" id="country_field1"></input>
+      <input type="text" id="country_field2"></input>
+        <input type="text" id="country_field3"></input>
+
+  <label for="city" class="city">City</label>
+    <label for="state" class="state">State</label>
+     <label for="zip" class="zip">ZipCode</label>
+    </div>
+
+  <!---------------------------------------Phone Number---------------------------------------------------------->
+ <div class="phonenumber">
+  <label for="phone" id="phone">Phone Number</label>
+    <div class="space1">
+      <input type="text" id="phone1"></input>
+       <input type="text" id="phone2"></input>
+     </div>
+     </div>
+     <div class="hobby_section">
+  <!---------------------------------------Text Area for Hobbies---------------------------------------------------------->
+
+  <p >What are your hobbies</p>
+      <textarea id="textbox" rows="1" cols="50"></textarea>
+</div>
+</section>
+  <!--------------------------------------- Precious/Current Employment Details---------------------------------------------------------->
+<section>
+  <h3>Precious/Current Employment Details</h3>
+<div>
+  <!--------------------------------------- Company  Name---------------------------------------------------------->
+  <label for="companyname"  class="label">Company Name</label>
+    
+<input type="text" class="company"></input>
+
+    </div>
+  <!--------------------------------------- Job Title--------------------------------------------------------->
+<div>
+  <div class="jobtitle">
+  <label for="jobname"  class="label">Job Title</label>
+<input type="text" class="title"></input>
+  </div>
+  </div>
+  <!--------------------------------------- How long were you here box---------------------------------------------------------->
+<div>
+<label for="lastname"  class="label"> How long were you 
+  <div class="custom-text">here</label>
   
-  <input type="text" id="t20"></input>
-  <input type="text" id="t21"></input>
-  <input type="text" id="t22"></input>
-  <br>
-  <label for="a1" class="s4">City</label>
-  <label for="a1" class="s5">State</label>
-  <label for="a1" class="s6">ZipCode</label>
-  <br>
-  <br>
-
- 
-  <label for="phone" id="ph">Phone Number</label>
-    
-  <input type="text" id="t5"></input>
-  <input type="text" id="t6"></input>
-  <br>
-  <br>
-  <label for="hobby" class="size">What are your hobbies</label>
-  <br>
-
-<textarea rows="1" cols="50"></textarea>
-<br>
-<br>
-<h class="heading2">
-   Precious/Current Employment Details
-</h>
-
-<br>
-<br>
-<label for="name" class="size">Company Name</label>
-    
-<input type="text" class="t9"></input>
-<br>
-<br>
-<label for="name" class="size">Job Title</label>
-    
-<input type="text" class="t10"></input>
-<br>
-<br>
-<label for="name"class="size"> How long were you <br>here</label>
-    
-<input type="text" class="t11"></input>
-<br>
-<br>
-<h class="heading2">
+<input type="text" class="input_open"></input>
+    </div>
+  <!--------------------------------------- Refrence#1---------------------------------------------------------->
+<h4>
    Refrence #1
-</h>
-<br>
-<br>
-<label for="name" class="size">Name</label>
+</h4>
+  <!--------------------------------------- Name---------------------------------------------------------->
+  <div class="input_name">
+  <label for="refname"  >Name</label>
     
-<input type="text" class="t7"></input>
-<br>
-<br>
-<label for="name"class="size"> Phone</label>
-    
-<input type="number" class="t7"></input>
-<br>
-<br>
-<h class="heading2">
+    <input type="text" class="ref2_inputfields"></input>
+    </div>
+  <!--------------------------------------- Phone---------------------------------------------------------->
+<div>
+<label for="refphone" > Phone</label>  
+<input type="number" class="ref2_inputfields"></input>
+  </div>
+  <!--------------------------------------- Refrence#2---------------------------------------------------------->
+<h5>
     Refrence #2
-</h>
-<br>
-<br>
-<label for="name" class="size">Name</label>
+</h5>
+  <!--------------------------------------- Name---------------------------------------------------------->
+<div >
+  <label for="ref2name"  >Name</label>
     
-<input type="text" class="t7"></input>
-<br>
-<br>
-<label for="name" class="size">Phone</label>
-    
-<input type="number" class="t7"></input>
-<br>
-<br>
+<input type="text" class="ref2_inputfields"></input>
+</div>
+  <!--------------------------------------- Phone---------------------------------------------------------->
+<div class="input_phone">
+<label for="ref2phone"  >Phone</label>    
+<input type="number" class="ref2_inputfields"></input>
+</div>
+  <!--------------------------------------- Apply Button---------------------------------------------------------->
 </form>
 <button id="btn">Apply</button>
+
+</div>
+</section>
   </html>

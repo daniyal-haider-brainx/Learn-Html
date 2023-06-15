@@ -1,0 +1,35 @@
+*{
+    background-image: url('pic.avif');
+    background-repeat: repeat;
+
+
+
+}
+h1
+{
+  font-weight: bold;
+ 
+  font-size: 2rem;  
+}
+h2
+{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+nav{
+    margin-top: 15%;
+    margin-left: 37%;
+}
+
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+ 
+  }
